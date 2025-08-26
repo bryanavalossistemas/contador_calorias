@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# 🔥 Contador de Calorías
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License](https://img.shields.io/badge/license-MIT-green)  
+![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow)  
+![Made with](https://img.shields.io/badge/made%20with-💪-blue)
 
-Currently, two official plugins are available:
+Un **contador de calorías** interactivo que te permite llevar un control diario de las **calorías consumidas** (comidas) frente a las **calorías quemadas** (ejercicio).  
+El sistema genera un **resumen en tiempo real** con la diferencia entre lo que has ingerido y lo que has gastado, ayudándote a mantener un estilo de vida saludable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Características
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Registrar **comidas y calorías consumidas**. 🍽️  
+- Registrar **ejercicios y calorías quemadas**. 🏃‍♂️  
+- Visualizar en todo momento el **balance energético** (positivo, negativo o equilibrado).  
+- Obtener un **resumen diario** de consumo vs gasto calórico.  
+- Guardar histórico de registros para llevar un seguimiento.  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🛠️ Tecnologías utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Frontend:** React + TailwindCSS  
+- **Backend:** Node.js con Express  
+- **Base de datos:** MongoDB / PostgreSQL  
+- **Control de versiones:** Git & GitHub  
+
+---
+
+## 📂 Estructura del proyecto
+
+```bash
+calorias-tracker/
+├── backend/              # API y lógica de negocio
+├── frontend/             # Interfaz de usuario
+├── docs/                 # Documentación y capturas
+└── README.md             # Descripción del proyecto
